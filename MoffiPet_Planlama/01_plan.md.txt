@@ -1,0 +1,41 @@
+# MoffiPet Proje Planı
+
+## 1. Proje Tanımı
+MoffiPet, evcil hayvan sahiplerinin bakım, sağlık ve aktivite takibini kolaylaştıran bir planlama platformudur. Kullanıcılar evcil hayvanlarının bilgilerini kaydedebilir, veteriner randevularını yönetebilir ve topluluk içinde paylaşım yapabilirler.
+
+## 2. Demo / MVP İçeriği
+- Kullanıcı kaydı ve giriş sistemi  
+- Pet ekleme ve profil görüntüleme  
+- Basit demo ekranı (giydirilmiş görsel ile)  
+- Post paylaşımı ve puan sistemi
+
+## 3. Kullanıcı Rolleri
+- **User:** Pet sahibi, temel kullanıcı  
+- **Vet:** Veteriner, doğrulayıcı rol  
+- **Admin:** Sistem yöneticisi
+
+## 4. Kimlik Sistemi
+Bubble Auth + Bubble DB
+
+## 5. Demo Başarı Kriterleri
+- [ ] Kayıt → giriş  
+- [ ] Pet ekle → profilinde gör  
+- [ ] Al demo → giydirilmiş görsel  
+- [ ] Post at → puan gör  
+## 6. MoffiPet+ Nedir?
+MoffiPet+, evcil hayvan sahiplerinin günlük bakım rutinlerini dijitalleştiren akıllı bir platformdur. Kullanıcılar, hayvanlarının beslenme, aşı, egzersiz ve sağlık geçmişini kolayca takip edebilir. Ayrıca topluluk içindeki diğer hayvan sahipleriyle etkileşime geçebilir, veterinerlerden rehberlik alabilir ve puan kazanarak premium özelliklere erişebilir.
+## 7. Demo / MVP Planı
+Bu aşamada amaç, projenin temel fikrini kısa sürede somutlaştırmak. MoffiPet’in ilk versiyonunda aşağıdaki modüller yer alacak:
+
+- **Kayıt ve Giriş:** Kullanıcılar e-posta ile hesap açabilecek.  
+- **Profil ve Pet Ekleme:** Her kullanıcı kendi evcil hayvan profillerini oluşturabilecek.  
+- **Pet Takip Ekranı:** Beslenme, sağlık ve aktivite geçmişi görselleştirilecek.  
+- **Topluluk Alanı:** Kullanıcılar kısa postlar paylaşabilecek.  
+- **Puan Sistemi:** Paylaşımlar, yorumlar ve aktivitelerle puan kazanılacak.  
+- **Demo Görseli:** Basit ama temsili bir arayüz giydirmesi yapılacak.  
+---
+
+## Gün 1 – Kapanış
+Bugün MoffiPet projesinin temel planlaması tamamlandı.  
+Klasör yapısı kuruldu, proje vizyonu ve MoffiPet+ tanımı netleştirildi, demo planı çizildi.  
+Yarın odak: Görsel demo iskeleti ve veri akışı haritası.

@@ -1,0 +1,12 @@
+# Notlar
+
+## Genel Notlar
+- Proje adı: **MoffiPet**
+- Amaç: Evcil hayvan sahipleri için planlama, takip ve topluluk sistemi oluşturmak.
+- Temel teknoloji: Bubble.io
+- Dosya yapısı tamamlandı, içerik planlaması devam ediyor.
+
+## Yapılacaklar
+- [ ] Demo tasarımı oluştur
+- [ ] Görsel kaynakları assets klasörüne ekle
+- [ ] Plan dosyasını güncelle

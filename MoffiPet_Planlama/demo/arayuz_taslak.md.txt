@@ -1,0 +1,20 @@
+# Arayüz Taslak
+
+## Giriş Ekranı
+- Logo üstte, ortada giriş kutusu
+- “E-posta” ve “Şifre” alanları
+- “Giriş Yap” ve “Kayıt Ol” butonları
+
+## Ana Sayfa
+- Üstte kullanıcı adı ve puan göstergesi
+- Altında pet kartları (her biri tıklanabilir)
+- Menü: Ana Sayfa | Petlerim | Topluluk | Ayarlar
+
+## Pet Profili
+- Pet fotoğrafı + adı
+- Sağlık durumu, yaş, cins
+- Alt sekmeler: Beslenme, Aktivite, Aşı Takvimi
+
+## Topluluk Alanı
+- Kullanıcı gönderileri, puanlar
+- Beğeni ve yorum sistemi

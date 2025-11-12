@@ -1,0 +1,19 @@
+# Kaynaklar
+
+## Bubble.io Dokümantasyonu
+- [https://manual.bubble.io](https://manual.bubble.io)
+
+## UI/UX İlham Kaynakları
+- [https://dribbble.com](https://dribbble.com)
+- [https://mobbin.com](https://mobbin.com)
+
+## Renk Paleti Araçları
+- [https://coolors.co](https://coolors.co)
+- [https://colorhunt.co](https://colorhunt.co)
+
+## İkonlar
+- [https://lucide.dev](https://lucide.dev)
+- [https://icons8.com](https://icons8.com)
+
+## Diğer Notlar
+- Kullanıcı akışı için referans: Notion, Habitica, PetDesk uygulamaları
