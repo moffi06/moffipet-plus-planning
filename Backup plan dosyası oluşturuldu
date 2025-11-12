@@ -1,0 +1,13 @@
+backups/backup_plan.md
+# Backup Plan
+
+Bu dosya, MoffiPet projesi için yedekleme stratejisini içerir.
+
+## Yedekleme Kuralları
+- Her büyük değişiklik sonrası plan dosyaları yedeklenir.  
+- Haftada 1 kez GitHub push yapılır.  
+- Ayda 1 kez Drive veya harici diske tam yedek alınır.  
+
+## Dosya Formatı
+- Tüm yedekler `.zip` formatında saklanır.  
+- Versiyonlama: backup_v1.zip, backup_v2.zip gibi numaralandırılır.
