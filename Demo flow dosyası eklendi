@@ -1,0 +1,11 @@
+04_demo-flow.md
+# Demo Flow
+Bu dosya MoffiPet demo akışını tanımlar.
+
+## Akış Adımları
+1. Kullanıcı kayıt olur veya giriş yapar.  
+2. Pet ekleme ekranı açılır.  
+3. Kullanıcı pet bilgilerini girer ve kaydeder.  
+4. Ana sayfada pet profili görüntülenir.  
+5. Topluluk sekmesinde paylaşım yapabilir.  
+6. Puan sistemi ve rozet kazanımları devreye girer.
