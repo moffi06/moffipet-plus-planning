@@ -1,0 +1,15 @@
+03_db-schema.md
+# DB Schema
+Bu dosya MoffiPet veritabanı yapısını ve tablolar arası ilişkileri tanımlar.
+
+## Tablolar
+- Users  
+- Pets  
+- Vets  
+- Posts  
+- Points  
+
+## İlişkiler
+- Her kullanıcı birden fazla pet’e sahip olabilir.  
+- Her post bir kullanıcıya aittir.  
+- Her pet bir veterinerle ilişkilendirilebilir.
