@@ -128,3 +128,38 @@ Alanlar:
 ---
 
 Not: Şu an için alanlar sade tutuldu, ilişkiler net. İleride ihtiyaç olursa ek alanlar (adres, telefon vb.) eklenir.
+## Relationships
+
+- Users 1 → N Pets  
+  (Bir kullanıcı birden fazla evcil hayvana sahip olabilir.)
+
+- Pets 1 → N Outfits  
+  (Bir hayvanın birden fazla kıyafeti olabilir.)
+
+- Pets 1 → N Posts  
+  (Bir hayvan için birden fazla post oluşturulabilir.)
+
+- Users 1 → N Posts  
+  (Bir kullanıcı birden fazla post paylaşabilir.)
+
+- Users 1 → N Appointments  
+  (Bir kullanıcı birden fazla randevu alabilir.)
+
+- Pets 1 → N Appointments  
+  (Bir hayvan için birden fazla randevu olabilir.)
+
+- Vets 1 → N Appointments  
+  (Bir veterinerin birden fazla randevusu olabilir.)
+
+- Posts 1 → N Comments  
+  (Bir postun birden fazla yorumu olabilir.)
+
+- Users 1 → N Comments  
+  (Bir kullanıcı birçok yorum yazabilir.)
+
+- Products 1 → N Orders  
+  (Bir ürün birden çok siparişte yer alabilir.)
+
+- Users 1 → N Orders  
+  (Bir kullanıcı birden fazla sipariş verebilir.)
+
