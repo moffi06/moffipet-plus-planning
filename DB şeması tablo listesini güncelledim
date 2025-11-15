@@ -1,0 +1,130 @@
+# GÜN 4 – DB Şeması (Temel Tablo Listesi)
+
+Bu dosya, Moffi için kullanacağımız temel tabloları ve alanlarını listeler.
+Amaç: Alanlar sade, ilişkiler net olsun. Performans detaylarını daha sonra ele alırız.
+
+---
+
+## 1. Users
+
+Kullanıcı bilgileri ve puanları.
+
+Alanlar:
+- `id` (string)
+- `email` (string)
+- `name` (string)
+- `role` (string) — örn: "user", "admin"
+- `points` (integer)
+
+Not: Points → Users tablosunun içinde tutulur (performans için).
+
+---
+
+## 2. Pets
+
+Kullanıcıların evcil hayvanları.
+
+Alanlar:
+- `id` (string)
+- `userId` (string) — ilişkili kullanıcı (Users.id)
+- `name` (string)
+- `type` (string) — örn: dog / cat / bird / other
+- `breed` (string)
+- `age` (integer)
+- `photoUrl` (string)
+
+---
+
+## 3. Outfits
+
+Evcil hayvanların kıyafet / aksesuar kayıtları.
+
+Alanlar:
+- `id` (string)
+- `petId` (string) — ilişkili pet (Pets.id)
+- `imageUrl` (string)
+- `createdAt` (datetime)
+
+---
+
+## 4. Vets
+
+Uygulamadaki veterinerler.
+
+Alanlar:
+- `id` (string)
+- `name` (string)
+- `location` (string)
+- `coords` (string) — ileride koordinat formatı netleşebilir
+- `isApproved` (boolean)
+
+---
+
+## 5. Appointments
+
+Kullanıcı–vet randevuları.
+
+Alanlar:
+- `id` (string)
+- `userId` (string) — (Users.id)
+- `petId` (string) — (Pets.id)
+- `vetId` (string) — (Vets.id)
+- `dateTime` (datetime)
+- `status` (string) — örn: "pending", "confirmed", "cancelled"
+
+---
+
+## 6. Posts
+
+Kullanıcı gönderileri (feed).
+
+Alanlar:
+- `id` (string)
+- `userId` (string) — (Users.id)
+- `petId` (string, optional) — gönderi bir pet ile ilgiliyse
+- `imageUrl` (string)
+- `text` (string)
+- `createdAt` (datetime)
+
+---
+
+## 7. Comments
+
+Gönderilere gelen yorumlar.
+
+Alanlar:
+- `id` (string)
+- `postId` (string) — (Posts.id)
+- `userId` (string) — (Users.id)
+- `text` (string)
+- `createdAt` (datetime)
+
+---
+
+## 8. Products
+
+Satılacak ürünler.
+
+Alanlar:
+- `id` (string)
+- `name` (string)
+- `price` (number)
+- `imageUrl` (string)
+- `link` (string)
+
+---
+
+## 9. Orders
+
+Kullanıcıların verdiği siparişler.
+
+Alanlar:
+- `id` (string)
+- `userId` (string) — (Users.id)
+- `productId` (string) — (Products.id)
+- `status` (string) — örn: "pending", "paid", "shipped"
+- `createdAt` (datetime)
+
+---
+
+Not: Şu an için alanlar sade tutuldu, ilişkiler net. İleride ihtiyaç olursa ek alanlar (adres, telefon vb.) eklenir.
